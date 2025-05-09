@@ -1,8 +1,8 @@
-Jetpack Compose Assignment 1
-Overview
+# Jetpack Compose Assignment 1
+# Overview
 This Android application demonstrates the use of Jetpack Compose to display a list of academic courses. Each course is presented in a card that shows basic information (title, code, credit hours) and can be expanded to reveal additional details (description, prerequisites). The app follows Material 3 Design principles and incorporates state management, animations, and efficient list rendering.
 
-Features
+# Features
 Composable UI: Built entirely with Jetpack Compose, using @Composable functions.
 State Management: Uses rememberSaveable for preserving the expanded state of each course card across configuration changes.
 Efficient List: Implements LazyColumn for performant rendering of potentially long course lists.
